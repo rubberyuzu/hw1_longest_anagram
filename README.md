@@ -1,4 +1,6 @@
 longest_anagram
 ===============
 
-a program to find the longest anagram possible in a short runtime
+This is my assignment for the summer internship.
+
+I have three versions of programs, "anagram_newest.rb"(which is not the newest), "anagram_OOP.rb" and "activerecord".
