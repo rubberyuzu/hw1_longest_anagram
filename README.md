@@ -1,16 +1,16 @@
-longest_anagram
+#longest_anagram
 ===============
 
 This is my assignment for the summer internship.
 
 ===============
-# [THE PROBLEM]
+## THE PROBLEM
 
 Write a program that, given 16 characters, finds the longest possible word that can be made from those characters without trying all 2^16 possible sets of letters.
 
 
 ===============
-# [IMPORTANT NOTE TO CODE REVIEWERS]
+## IMPORTANT NOTE TO CODE REVIEWERS
 
 I have three versions of programs, "anagram_newest.rb"(which is not the newest), "anagram_OOP.rb" and "activerecord".
 
@@ -22,7 +22,7 @@ Since I had a problem loading the dictionary given, I used the dictionary in my 
 
 
 ================
-# [HOW TO RUN THE CODE]
+## HOW TO RUN THE CODE
 
 
 "anagram_newest.rb" --- on commandline, type "ruby anagram_newest.rb"
@@ -55,7 +55,7 @@ Thanks for the code review, and I appreciate any kind of feedback!
 
 
 ===============
-# [MY APPROACH TO THIS PROBLEM]
+## MY APPROACH TO THIS PROBLEM
 
 What would be the worst case of this problem? => The case when you cannot find the anagram at all. 
 ... in that case, you have to search for all the 2^16 possibilities; this cannot be avoided.
@@ -65,7 +65,7 @@ What would be the worst case of this problem? => The case when you cannot find t
 
 
 
-## [MY LOGIC]
+## MY LOGIC
 
 look for the 'perfect' anagram first, (= defined as "return_perf_anagram" method in my code)
 
@@ -76,7 +76,7 @@ if not, drop one character (= defined as "drop_one_ch" => loop using "drop_one_c
 
 
 
-##[A FEW WORDS ABOUT METHODS]
+## A FEW WORDS ABOUT METHODS
 
 find_longest_anagram ... the main method which takes the userinput and returns the answer as an array.
 
@@ -89,7 +89,7 @@ drop_one_ch_arr ... takes a word and returns an array of the words missing one c
 drop_n_chs_arr ... takes a word and the number of characters you want to drop, and returns an array of all the possible words missing n characters
 
 
-#[REFLECTION AND FUTURE IMPROVEMENT]
+# REFLECTION AND FUTURE IMPROVEMENT
 
 Though the main purpose of this problem was to speed up the program, my program turned out to be slower than I expected.
 
